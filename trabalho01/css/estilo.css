@@ -1,0 +1,74 @@
+body {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: #222222;
+}
+
+.channel-section {
+    background-color: #ffffff;
+    padding-top: 55px;
+    padding-bottom: 70px;
+}
+
+.channel-title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 14px;
+}
+
+.channel-description {
+    max-width: 900px;
+    margin: 0 auto;
+    color: #121212;
+    font-size: 0.95rem;
+    line-height: 1.65;
+}
+
+.channel-content {
+    max-width: 900px;
+    margin: 38px auto 0;
+}
+
+.channel-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.channel-icons img {
+    display: block;
+    width: 100%;
+    max-width: 92px;
+    height: auto;
+}
+
+.channel-photo img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 575.98px) {
+    .channel-section {
+        padding-top: 38px;
+        padding-bottom: 45px;
+    }
+
+    .channel-title {
+        font-size: 1.35rem;
+    }
+
+    .channel-description {
+        font-size: 0.7rem;
+    }
+
+    .channel-content {
+        margin-top: 28px;
+    }
+
+    .channel-icons img {
+        max-width: 72px;
+    }
+}
